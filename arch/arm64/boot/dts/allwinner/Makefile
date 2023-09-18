@@ -42,5 +42,7 @@ dtb-$(CONFIG_ARCH_SUNXI) += sun50i-h616-orangepi-zero2.dtb
 dtb-$(CONFIG_ARCH_SUNXI) += sun50i-h616-x96-mate.dtb
 dtb-$(CONFIG_ARCH_SUNXI) += sun50i-h616-bigtreetech-cb1-sd.dtb
 dtb-$(CONFIG_ARCH_SUNXI) += sun50i-h616-bigtreetech-cb1-emmc.dtb
+dtb-$(CONFIG_ARCH_SUNXI) += sun50i-h616-blueberry-sd.dtb
+dtb-$(CONFIG_ARCH_SUNXI) += sun50i-h616-blueberry-emmc.dtb
 
 subdir-y	:= $(dts-dirs) overlay
