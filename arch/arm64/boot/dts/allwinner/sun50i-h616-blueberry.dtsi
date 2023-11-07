@@ -12,8 +12,8 @@
 #include <dt-bindings/leds/common.h>
 
 / {
-	model = "Blueberry blb";
-	compatible = "Blueberry,blb", "allwinner,sun50i-h616";
+	model = "Blueberry BLB";
+	compatible = "blueberry,blb", "allwinner,sun50i-h616";
 
 	aliases {
 		ethernet0 = &emac1;
